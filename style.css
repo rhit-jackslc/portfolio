@@ -14,14 +14,14 @@ body {
 
 header {
   background: var(--accent-color);
-  padding: 1em 0;
+  padding: 1px 0;
 }
 
 .nav {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 1.5em;
+  gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -35,9 +35,9 @@ header {
 footer {
   background: #222;
   color: white;
-  padding: 1em;
+  padding: 10px;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 20px;
 }
 
 .profileLink {
@@ -59,19 +59,19 @@ footer {
 .portfolio {
   max-width: 800px;
   margin: auto;
-  padding: 2em;
+  padding: 20px;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 10px;
 }
 
 .project {
   flex: 1 1 300px;
-  border: 1px solid #ccc;
-  padding: 1em;
+  border: 10px solid #ccc;
+  padding: 10px;
   border-radius: 8px;
   background: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
