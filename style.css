@@ -1,19 +1,12 @@
-:root {
-  --primary-color: #333;
-  --accent-color: #5ea4f3;
-  --background: #f7f7f7;
-  --font: 'Segoe UI', sans-serif;
-}
-
 body {
   margin: 0;
-  font-family: var(--font);
-  background-color: var(--background);
-  color: var(--primary-color);
+  font-family: sans-serif;
+  background-color: white;
+  color: gray;
 }
 
 header {
-  background: var(--accent-color);
+  background: cyan;
   padding: 1px 0;
 }
 
@@ -33,7 +26,7 @@ header {
 }
 
 footer {
-  background: blue;
+  background: cyan;
   color: white;
   padding: 10px;
   text-align: center;
