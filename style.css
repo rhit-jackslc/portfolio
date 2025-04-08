@@ -40,6 +40,10 @@ footer {
   margin-top: 2em;
 }
 
+.profileLink {
+  color: white;
+}
+
 .profile-pic {
   width: 150px;
   border-radius: 50%;
