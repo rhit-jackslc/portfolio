@@ -1,4 +1,4 @@
-/* CSS Variables for Color Scheme */
+
 :root {
   --primary-color: #00bcd4;
   --secondary-color: #ffffff;
@@ -7,7 +7,6 @@
   --hover-color: #0288d1;
 }
 
-/* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -15,7 +14,6 @@ body {
   color: var(--text-color);
 }
 
-/* Header Styles */
 header {
   background: var(--primary-color);
   padding: 10px 0;
@@ -39,7 +37,6 @@ header {
   color: var(--hover-color);
 }
 
-/* Footer Styles */
 footer {
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -55,20 +52,17 @@ footer a:hover {
   color: var(--hover-color);
 }
 
-/* Profile Picture */
 .profile-pic {
   width: 150px;
   border-radius: 50%;
 }
 
-/* Main Grid Layout */
 .main-grid {
   display: grid;
   place-items: center;
-  min-height: calc(100vh - (60px + 40px)); /* Adjust for header/footer height */
+  min-height: calc(100vh - (60px + 40px));
 }
 
-/* Resume and Portfolio Pages */
 .resume,
 .portfolio {
   max-width: 800px;
@@ -80,13 +74,48 @@ h2 {
   border-bottom: solid var(--primary-color) thin;
 }
 
-/* Projects Section */
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Space between projects */
+  gap: 20px; 
 }
 
 .project {
-  flex-basis: calc(33.333% - (20px)); /* Responsive grid layout */
+  flex-basis: calc(33.333% - (20px));
   border-radius:
+}
+
+a:visited {
+  color: #6a1b9a; 
+}
+
+.timeline {
+  border-left: 3px solid var(--primary-color);
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline-date {
+  position: absolute;
+  left: -110px;
+  width: 100px;
+  text-align: right;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.download-btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.download-btn:hover {
+  background: var(--hover-color);
+}
