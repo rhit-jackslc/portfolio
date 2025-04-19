@@ -101,3 +101,10 @@ a:visited {
 .download-btn:hover {
   background: var(--hover-color);
 }
+
+body.dark-mode {
+  --background-color: #222;
+  --text-color: #eee;
+  --secondary-color: #333;
+}
+
